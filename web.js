@@ -8,9 +8,9 @@ app.get('/', function(request, response) {
 
 var buf= fs.readFileSync("index.html", "utf-8");
 var contents = buf.toString();
-console.log(contents);
+//console.log(contents);
 
-  //response.send("hello workld 3!");
+  response.send("hello workld 3!");
 
 });
 
