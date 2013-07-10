@@ -10,7 +10,7 @@ var buf= fs.readFileSync("index.html", "utf-8");
 var contents = buf.toString();
 //console.log(contents);
 
-  response.send("hello workld 3!");
+  response.send(contents);
 
 });
 
