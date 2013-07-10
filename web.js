@@ -6,11 +6,11 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
 
-//var buf= fs.readFileSync("index.html", "utf-8");
-//var contents = contents_buffer.toString();
-//console.log(contents);
+var buf= fs.readFileSync("index.html", "utf-8");
+var contents = contents_buffer.toString();
+console.log(contents);
 
-  response.send("hello workld 3!");
+  //response.send("hello workld 3!");
 
 });
 
